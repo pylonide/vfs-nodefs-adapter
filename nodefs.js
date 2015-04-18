@@ -4,8 +4,8 @@ const Stream = require("stream").Stream;
 
 module.exports = function(vfs, base) {
 
-    var resolvePath = base 
-        ? function(path) { 
+    var resolvePath = base
+        ? function(path) {
 	        if (path.substring(0, base.length) === base) {
 	            return path;
 	        }
@@ -111,6 +111,10 @@ module.exports = function(vfs, base) {
         vfs.rename(resolvePath(to), {from: resolvePath(from)}, callback);
     }
 
+    function renameOverwrite(from, to, callback) {
+        vfs.rename(resolvePath(to), {from: resolvePath(from), overwrite: true}, callback);
+    }
+
     function mkdirP(path, mode, callback) {
         if (!callback) {
             callback = mode;
@@ -138,6 +142,7 @@ module.exports = function(vfs, base) {
         exists: exists,
         stat: stat,
         rename: rename,
+        renameOverwrite: renameOverwrite,
         mkdirP: mkdirP,
         mkdir: mkdir,
         unlink: rmfile,
