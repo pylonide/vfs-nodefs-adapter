@@ -1,8 +1,11 @@
 {
     "author": "Ajax.org B.V. <info@ajax.org>",
     "contributors": [
-        { "name": "Faian Jakobs", "email": "fabian@c9.io" },
-        { "name": "Sten Feldman", "email": "exile@chamber.ee"}
+        {
+            "name": "Faian Jakobs",
+            "email": "fabian@c9.io"
+        },
+        "Sten Feldman <exile@chamber.ee> (http://sten.feldman.eesti.ee/)"
     ],
     "name": "vfs-nodefs-adapter",
     "description": "Wraps a vfs instance in a node fs style interface",
@@ -13,12 +16,8 @@
     },
     "main": "nodefs.js",
     "dependencies": {},
-    "licenses" : [{
-        "type" : "MIT",
-        "url": "http://github.com/exsilium/vfs-nodefs-adapter/raw/master/LICENSE"
-
-    }],
+    "license": "MIT",
     "engines": {
-       "node": "*"
+        "node": ">=4.8.5"
     }
 }
