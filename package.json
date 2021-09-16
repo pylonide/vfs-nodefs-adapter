@@ -7,7 +7,7 @@
     },
     "Sten Feldman <exile@chamber.ee> (https://sten.pw/)"
   ],
-  "name": "vfs-nodefs-adapter",
+  "name": "@pylonide/vfs-nodefs-adapter",
   "description": "Wraps a vfs instance in a node fs style interface",
   "version": "0.5.0",
   "repository": {
