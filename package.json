@@ -1,24 +1,27 @@
 {
-  "author": "Ajax.org B.V. <info@ajax.org>",
+  "name": "@pylonide/vfs-nodefs-adapter",
+  "version": "0.7.0",
+  "description": "Wraps a vfs instance in a node fs style interface",
+  "author": "Sten Feldman <exile@chamber.ee>",
   "contributors": [
+    "Ajax.org B.V. <info@ajax.org>",
     {
       "name": "Faian Jakobs",
       "email": "fabian@c9.io"
     },
     "Sten Feldman <exile@chamber.ee> (https://sten.pw/)"
   ],
-  "name": "@pylonide/vfs-nodefs-adapter",
-  "description": "Wraps a vfs instance in a node fs style interface",
-  "version": "0.6.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/exsilium/vfs-nodefs-adapter.git"
+  },
+  "scripts": {
+    "test": "echo No tests specified"
   },
   "main": "nodefs.js",
   "dependencies": {},
   "license": "MIT",
   "engines": {
-    "node": ">= 14.21.1",
-    "npm": ">= 6.14.17"
+    "node": ">= 18.18.2"
   }
 }
