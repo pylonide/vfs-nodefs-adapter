@@ -1,6 +1,6 @@
 {
   "name": "@pylonide/vfs-nodefs-adapter",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Wraps a vfs instance in a node fs style interface",
   "author": "Sten Feldman <exile@chamber.ee>",
   "contributors": [
@@ -22,6 +22,6 @@
   "dependencies": {},
   "license": "MIT",
   "engines": {
-    "node": ">= 18.18.2"
+    "node": ">= 20.19.0"
   }
 }
