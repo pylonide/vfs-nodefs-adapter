@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/exsilium/vfs-nodefs-adapter.git"
+    "url": "git://github.com/pylonide/vfs-nodefs-adapter.git"
   },
   "scripts": {
     "test": "echo No tests specified"
